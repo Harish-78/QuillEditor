@@ -18,13 +18,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-// import RecentDocumentsScreen from "./RecentDocumentsScreen";
-// import EditorScreen from "./EditorSceen";
-// import QuillEditorScreen from "../Editor/quillEditor/QuillEditorScreen";
-import MyQuillEditor from "./EditorSceen";
-// import Editor from "../components/editor";
-// import { Demo } from "..     /components/TableScreen";
-// import Tiptap from "../Editor/tiptapEditor/TiptapEditor";
+import QuillEditor from "./EditorSceen";
 
 const drawerWidth = 240;
 
@@ -145,7 +139,7 @@ export default function HomeScreen() {
       </Drawer>
       <Main open={open}>
         <DrawerHeader />
-        <MyQuillEditor />
+        <QuillEditor />
       </Main>
     </Box>
   );
