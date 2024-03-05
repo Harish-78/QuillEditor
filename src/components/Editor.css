@@ -1,0 +1,79 @@
+#quill-text-editor .ql-mention-list-container {
+  min-height: 44px;
+  max-height: 190px;
+  width: 400px;
+}
+
+#quill-text-editor .ql-mention-list-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#quill-text-editor .ql-mention-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#quill-text-editor .ql-mention-list-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#quill-text-editor .ql-mention-list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#quill-text-editor table.quill-better-table td {
+  border: 1px solid #000 !important;
+  padding: 2px 5px !important;
+}
+
+#quill-text-editor .ql-editor {
+  min-height: 300px;
+}
+.ql-editor p {
+  font-size: 18px;
+}
+
+#quill-text-editor .qlcontainer {
+  min-height: 300px;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+#quill-text-editor .ql-toolbar {
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.ql-mention-denotation-char {
+  display: none;
+}
+.ql-editor img{
+  max-width: 100%;
+}
+
+/* userIcon-avatar */
+.mention-avatar {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -3px;
+  margin-left: 2px;
+  display: inline-block;
+  text-align: center;
+}
+
+.mention-avatar-div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+}
