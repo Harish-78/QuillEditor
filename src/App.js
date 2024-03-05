@@ -19,6 +19,7 @@
 import React, { useRef, useState } from "react";
 import Editor from "./screens/EditorSceen";
 import Quill from "quill";
+import Customquill from "./components/CustomQuill";
 // import "./App.css";
 
 const Delta = Quill.import("delta");
@@ -33,7 +34,7 @@ const App = () => {
 
   return (
     <div>
-      <Editor
+      {/* <Editor
         ref={quillRef}
         // readOnly={readOnly}
         // defaultValue={new Delta()
@@ -46,8 +47,10 @@ const App = () => {
         //   .insert("\n")}
         // onSelectionChange={setRange}
         onTextChange={setLastChange}
-        
-      />
+      /> */}
+
+      <Customquill />
+
       {/* <div class="controls">
         <label>
           Read Only:{" "}
